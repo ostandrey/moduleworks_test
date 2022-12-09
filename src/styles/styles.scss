@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App {
+    max-width: 1200px;
+    width: 100%;
+    padding: 30px;
+}
+
+.download_button {
+    padding: 5px;
+    border: 2px solid green;
+    cursor: pointer;
+}
